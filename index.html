@@ -1,16 +1,127 @@
 <!DOCTYPE html>
-
-<html>
+<html lang ="en">
     <head>
-        <title> Sample Web Page</title>
+        <meta charset="UTF-8">
+        
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Gabriela&family=Carattere&display=swap" rel="stylesheet">
+
+        <title>Jamie Pereja | Portfolio </title>
+        <link rel="icon" type="Pictures/png" href ="Pictures/Logo.png">
+        <link rel = "stylesheet" href = "style.css">
     </head>
 
     <body>
-        <h1> This is a heading</h1>
-      <b> </b>  
+        <!---Nav Bar-->
+        <header class = "navbar">
+            <div class="logo">
+                <img src ="Pictures/Logo.png" alt= "logo">
+            </div>
+            
+            <div class="nav_link">
+                <a href="#title">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#footer">Connect</a>
+            </div>
+
+        </header>
+
+        <section id="title" class="title">
+            <h1 class="title_hover">Hello World!</h1>
+            <h2 class="title_hover">I’m Jamie Pereja</h2>
+
+        </section>
+
+        <!---About Me Section-->
+        <section id="about" class ="about">
+            <div class="about_part">
+
+                <!---left side-->
+                <div class = "about_text">
+                    <h2>˚₊۶ৎ˙⋆ About Me ˚₊۶ৎ˙⋆</h2>
+                    <p>I am currently a sophomore BS Computer Science student at the University of the Philippines Los Baños (UPLB).  I am interested in building projects that turn my creative ideas into working projects. I am continuously learning new techniques and technologies to hone my skills. </p>
+                </div>
+
+                <!---center side-->
+                <div class= "about_photo">
+                    <img src = "Pictures/Profile Pic.jpg" alt ="Profile Photo">
+                </div>
+
+                <!---right side-->
+                <div class = "about_skills">
+                    <h2>˚₊۶ৎ˙⋆ Skills ˚₊۶ৎ˙⋆</h2>
+                    <p> I’ve worked and familiarize myself with the following languages: </p>
+                    <div class="skills_columns">
+                        <ul class="skills_column">
+                            <p>✿ C</p>
+                            <p>✿ Java</p>
+                            <p>✿ Python</p>
+                        </ul>
+
+                        <ul class="skills_column">
+                            <p>✿ HTML</p>
+                            <p>✿ CSS</p>
+                            <p>✿ R</p>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!---Project Section-->
+        <section id="projects" class="projects">
+            <img src="Pictures/Project Title.png">
+            <div class="project_part">
+                
+                <!---first project-->
+                <div class="part">
+                    <img src = "Pictures/150_100 Screenshot.png">
+                    <h3> ۫ ꣑ৎ City Pollution Reduction Plan</h3>
+                    <p>An optimization-based tool to help a city minimize the cost of the pollution reduction strategies. The application allows the user to select multiple mitigation projects and computes the most effective combinations. It applies numerical optimization and constraint handling with data visualization to present feasible or infeasible solutions.</p>
+                    <span>Language and Tools: R (R Shiny)</span>
+                </div>
+
+                <!---second project-->
+                <div class="part">
+                    <img src = "Pictures/12_100 Screenshot.png">
+                    <h3> ۫ ꣑ৎ Gardening Inventory & Logging System</h3>
+                    <p>A project designed to manage plants, fertilizers, and gardening transactions. The system allows users to add, edit, and track plant and fertilizer records, monitor nourishment usage, and log all actions in a transaction logbook. </p>
+                    <span> Language and Tools: Python </span>
+                </div>
+
+                <!---third project-->
+                <div class ="part">
+                    <img src = "Pictures/22_100 Screenshot.png">
+                    <h3> ۫ ꣑ৎ Online Storefront</h3>
+                    <p>A GUI-based online shopping application designed to demonstrate object-oriented programming. The program supports buyer and seller accounts with features such as wish lists, vouchers, and shopping carts. It focuses on user interaction with class design. </p>
+                    <span> Language and Tools: Java</span>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!---Footer Section-->
+        <footer id="footer" class="footer">
+            <img src="Pictures/Bow.png" class = "footer_design">
+
+            <div class="footer_content">
+                <h3>Connect with Me</h3>
+            </div>
+
+            <div class=" footer_content">
+                <p> Email: jlpereja1@up.edu.ph</p>
+            </div>
+
+            <div class = "footer_content">
+                <p> Github: github.com/jlpereja1</p>
+            </div>
+
+            <img src= "Pictures/Bow.png" class="footer_design">
+        </footer>
+
     </body>
 
 </html>
-
-
-

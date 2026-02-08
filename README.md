@@ -1,16 +1,18 @@
 README
 
--> Jamie Adrianne L. Pereja
--> BS Computer Science
--> Live Website Link: https://cmsc100-laboratory.github.io/02-my-github-page-jlpereja1/
--> Steps on how to create Github Page (draft)
-	1) In your repositoy, go to settings
-	2) Now, go to page
-	3) Under the heading 'branch', put it in main and remain it in root
-	4. Save it and deploy the live site
-	5) Wait for a few minutes and you can have your github page
--> What are your keys takeaways from this exercise? (draft)
-	- On how there are many possibilities on designing and customizing our web pages, it would just need some learning to properly apply the desired design into our pages.
+-> Jamie Adrianne L. Pereja  
+-> BS Computer Science  
+-> Live Website Link: https://cmsc100-laboratory.github.io/02-my-github-page-jlpereja1/  
+
+-> Steps on How to Create a Github Page  
+	1. In your Github repository, go to Settings  
+	2. In the Settings menu, click Pages  
+	3. Under the Branch section, select main and set the folder to root  
+	4. Click Save to deploy the live site  
+	5. Wait for a few minutes to finish deploying, then access your live Github Page using the link provided  
+
+-> What are Your Key Takeaways from this Exercise?  
+	- The exercise helped me understand more about the possibilities with designing and customizing our web pages. It also showcased me the importance of order and organization especially when it comes to the CSS codes.  
 
 
 
